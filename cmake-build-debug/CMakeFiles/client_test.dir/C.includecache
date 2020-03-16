@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../open62541/client_config_default.h
+open62541/client_config.h
+-
+open62541/client.h
+-
+
+../open62541/client_highlevel.h
+open62541/client.h
+-
+
+../open62541/client_subscriptions.h
+open62541/client.h
+-
+
+../open62541/plugin/log_stdout.h
+open62541/plugin/log.h
+-
+
+/home/zph/OPC UA/runDemoOpen62541/src/client_test.c
+client_config_default.h
+/home/zph/OPC UA/runDemoOpen62541/src/client_config_default.h
+client_highlevel.h
+/home/zph/OPC UA/runDemoOpen62541/src/client_highlevel.h
+client_subscriptions.h
+/home/zph/OPC UA/runDemoOpen62541/src/client_subscriptions.h
+plugin/log_stdout.h
+/home/zph/OPC UA/runDemoOpen62541/src/plugin/log_stdout.h
+stdlib.h
+-
+

@@ -1,0 +1,7 @@
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/server.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/server_one.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/client_one.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/client.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/client_test.dir
+/home/zph/OPC UA/runDemoOpen62541/cmake-build-debug/CMakeFiles/edit_cache.dir

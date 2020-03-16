@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/client_one.dir/src/client_one.c.o  -o ../bin/client_one  -L"/home/zph/OPC UA/runDemoOpen62541/open62541/bin" -Wl,-rpath,"/home/zph/OPC UA/runDemoOpen62541/open62541/bin" -Wl,-Bstatic -lopen62541 -Wl,-Bdynamic 
