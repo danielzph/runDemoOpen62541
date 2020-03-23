@@ -1,4 +1,4 @@
-//或#include "open62541.h"
+//#include "open62541.h"
 #include "client_config_default.h"
 #include "client_highlevel.h"
 #include "client_subscriptions.h"

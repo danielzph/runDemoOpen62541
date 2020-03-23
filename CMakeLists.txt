@@ -25,6 +25,13 @@ target_link_libraries(client_one libopen62541.a)
 add_executable(client_test ${PROJECT_SOURCE_DIR}/src/client_test.c)
 target_link_libraries(client_test libopen62541.a)
 
+add_executable(client_test2 ${PROJECT_SOURCE_DIR}/src/client_test2.c)
+target_link_libraries(client_test2 libopen62541.a)
+
+add_executable(client_test3 ${PROJECT_SOURCE_DIR}/src/client_test3.c)
+target_link_libraries(client_test3 libopen62541.a)
+
+
 
 
 

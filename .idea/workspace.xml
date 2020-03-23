@@ -6,6 +6,8 @@
       <config projectName="demoOpen62541" targetName="client" />
       <config projectName="demoOpen62541" targetName="client_test" />
       <config projectName="demoOpen62541" targetName="server" />
+      <config projectName="demoOpen62541" targetName="client_test3" />
+      <config projectName="demoOpen62541" targetName="client_test2" />
       <config projectName="demoOpen62541" targetName="server_one" />
     </generated>
   </component>
@@ -16,8 +18,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09f0d4d-1a0a-45c5-99c3-73a70bf7108d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/client_test" beforeDir="false" afterPath="$PROJECT_DIR$/bin/client_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/client_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/server.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/server_one.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/server_one.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server_one.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/server_one.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/demoOpen62541.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/demoOpen62541.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/client_test.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.client_test">
+  <component name="RunManager" selected="CMake Application.client_test3">
     <configuration name="client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="demoOpen62541" TARGET_NAME="client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="demoOpen62541" RUN_TARGET_NAME="client">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -64,6 +88,16 @@
       </method>
     </configuration>
     <configuration name="client_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="demoOpen62541" TARGET_NAME="client_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="demoOpen62541" RUN_TARGET_NAME="client_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_test2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="demoOpen62541" TARGET_NAME="client_test2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="demoOpen62541" RUN_TARGET_NAME="client_test2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_test3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="demoOpen62541" TARGET_NAME="client_test3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="demoOpen62541" RUN_TARGET_NAME="client_test3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,6 +116,8 @@
       <item itemvalue="CMake Application.client" />
       <item itemvalue="CMake Application.client_one" />
       <item itemvalue="CMake Application.client_test" />
+      <item itemvalue="CMake Application.client_test2" />
+      <item itemvalue="CMake Application.client_test3" />
       <item itemvalue="CMake Application.server" />
       <item itemvalue="CMake Application.server_one" />
     </list>
@@ -100,6 +136,13 @@
       <workItem from="1584241847718" duration="838000" />
       <workItem from="1584275153556" duration="2077000" />
       <workItem from="1584338757113" duration="7229000" />
+      <workItem from="1584503856907" duration="2666000" />
+      <workItem from="1584772675181" duration="908000" />
+      <workItem from="1584856133782" duration="1330000" />
+      <workItem from="1584933712971" duration="2546000" />
+      <workItem from="1584944096967" duration="635000" />
+      <workItem from="1584944781394" duration="6024000" />
+      <workItem from="1584955142115" duration="717000" />
     </task>
     <servers />
   </component>
@@ -111,7 +154,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
