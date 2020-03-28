@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named client_test4
+
+# Build rule for target.
+client_test4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_test4
+.PHONY : client_test4
+
+# fast build rule for target.
+client_test4/fast:
+	$(MAKE) -f CMakeFiles/client_test4.dir/build.make CMakeFiles/client_test4.dir/build
+.PHONY : client_test4/fast
+
+#=============================================================================
 # Target rules for targets named server
 
 # Build rule for target.
@@ -336,6 +349,33 @@ src/client_test3.c.s:
 	$(MAKE) -f CMakeFiles/client_test3.dir/build.make CMakeFiles/client_test3.dir/src/client_test3.c.s
 .PHONY : src/client_test3.c.s
 
+src/client_test4.o: src/client_test4.c.o
+
+.PHONY : src/client_test4.o
+
+# target to build an object file
+src/client_test4.c.o:
+	$(MAKE) -f CMakeFiles/client_test4.dir/build.make CMakeFiles/client_test4.dir/src/client_test4.c.o
+.PHONY : src/client_test4.c.o
+
+src/client_test4.i: src/client_test4.c.i
+
+.PHONY : src/client_test4.i
+
+# target to preprocess a source file
+src/client_test4.c.i:
+	$(MAKE) -f CMakeFiles/client_test4.dir/build.make CMakeFiles/client_test4.dir/src/client_test4.c.i
+.PHONY : src/client_test4.c.i
+
+src/client_test4.s: src/client_test4.c.s
+
+.PHONY : src/client_test4.s
+
+# target to generate assembly for a file
+src/client_test4.c.s:
+	$(MAKE) -f CMakeFiles/client_test4.dir/build.make CMakeFiles/client_test4.dir/src/client_test4.c.s
+.PHONY : src/client_test4.c.s
+
 src/server.o: src/server.c.o
 
 .PHONY : src/server.o
@@ -397,6 +437,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... client_test4"
 	@echo "... server"
 	@echo "... rebuild_cache"
 	@echo "... client_test3"
@@ -420,6 +461,9 @@ help:
 	@echo "... src/client_test3.o"
 	@echo "... src/client_test3.i"
 	@echo "... src/client_test3.s"
+	@echo "... src/client_test4.o"
+	@echo "... src/client_test4.i"
+	@echo "... src/client_test4.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"
